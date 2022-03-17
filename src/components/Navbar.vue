@@ -1,15 +1,14 @@
 <template>
-    <div id="app">
-       <router-view></router-view>
-    </div>
-
+  <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+  </div>
 </template>
 
 <script>
 export default {
-   name: 'app',
-   components: {}
+   name: 'Navbar'
 }
 </script>
-<style lang="sass">
+<style lang="">
 </style>

@@ -1,7 +1,8 @@
 <template>
    <div>
-       <h3>dvjdvj</h3>
+       <h3>Home</h3>
       <Navbar />
+      <h3>kefekf</h3>
       <!-- <Hero />
       <About />
       <Price />
