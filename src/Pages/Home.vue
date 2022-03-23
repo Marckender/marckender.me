@@ -1,29 +1,15 @@
 <template>
    <div>
-       <h3>Home</h3>
       <Navbar />
-      <h3>kefekf</h3>
-      <!-- <Hero />
-      <About />
-      <Price />
-      <Team/>
-      <Contact />
-      <Footer/> -->
    </div>
 </template>
 
 <script>
+import Navbar from '../components/Navbar.vue'
 export default {
    name: 'Home',
    components: {
-      Navbar: () => import('../components/Navbar.vue'),
-    //   Hero: () => import('../components/Hero.vue'),
-    //   About: () => import('../components/About.vue'),
-    //   Work: () => import('../components/Work.vue'),
-    //   Price: () => import('../components/Price.vue'),
-    //   Team: () => import('../components/Team.vue'),
-    //   Contact: () => import('../components/Contact.vue'),
-    //   Footer: () => import('../components/Footer.vue')
+      Navbar
    }
 }
 </script>
