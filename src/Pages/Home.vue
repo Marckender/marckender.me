@@ -1,7 +1,7 @@
 <template>
-   <div>
+   <section class="principal">
       <Navbar />
-   </div>
+   </section>
 </template>
 
 <script>
@@ -13,5 +13,13 @@ export default {
    }
 }
 </script>
-<style scoped>
+<style lang="css" >
+body {
+   background-color: #191919 !important;
+}
+.principal {
+   width: 100%;
+   overflow: hidden;
+   background-color: #191919 !important;
+}
 </style>
