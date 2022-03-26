@@ -1,4 +1,4 @@
-# marckender.me
+# marckender.github.io
 
 ## Project setup
 ```
