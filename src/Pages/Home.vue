@@ -14,12 +14,9 @@ export default {
 }
 </script>
 <style lang="css" >
-body {
-   background-color: #191919 !important;
-}
 .principal {
    width: 100%;
-   overflow: hidden;
+   /* overflow: hidden; */
    background-color: #191919 !important;
 }
 </style>

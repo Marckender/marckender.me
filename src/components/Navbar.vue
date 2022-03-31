@@ -1,6 +1,8 @@
 <template>
    <nav :class="{change_color: scrollPosition > 20}">
-    <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender</a>
+     <div>
+        <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender</a>
+     </div>
     <div  class="nav_menu">
       <a :class="{logo_change: scrollPosition > 20}" href="#home_functionality"><span>Home</span></a>
       <a href="#home_plans" :class="{logo_change: scrollPosition > 20}"><span>Resume</span></a>
@@ -59,10 +61,10 @@
     color: rgba(7, 26, 100, 0.63);
   }
 nav {
-  /* padding: 0 7% 0 7%; */
-  /* position: fixed; */
+  /* margin: 0 2% 0 2%; */
+  position: fixed;
   width: 100%;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -71,25 +73,18 @@ nav {
   z-index: 1000;
 }
 nav a {
-  font-family: Oregano;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 39px;
-  /* change for viewing, must change later */
-  color: #000;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #888;
   text-decoration: none;
-  /* color: #FFFFFF; */
-}
-nav span {
-  margin-left: 11px;
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  cursor: pointer;
+  /* position: relative; */
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 16px;
 }
 nav img:hover {
   cursor: pointer;
