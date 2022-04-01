@@ -30,7 +30,8 @@
     },
     "extends": [
       "plugin:vue/vue3-essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "vue/no-deprecated-slot-attribute: off"
     ],
     "parserOptions": {
       "parser": "babel-eslint"

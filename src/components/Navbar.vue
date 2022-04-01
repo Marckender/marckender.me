@@ -1,6 +1,6 @@
 <template>
    <nav :class="{change_color: scrollPosition > 20}">
-     <div>
+     <div class="__logo">
         <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender</a>
      </div>
     <div  class="nav_menu">
@@ -61,16 +61,20 @@
     color: rgba(7, 26, 100, 0.63);
   }
 nav {
-  /* margin: 0 2% 0 2%; */
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   color: #FFFFFF;
   z-index: 1000;
+}
+
+nav .__logo a{
+  color: #F68338;
+  padding-left: 8px ;
 }
 nav a {
   font-size: 14px;
@@ -85,6 +89,9 @@ nav a {
   -o-transition: 0.3s;
   transition: 0.3s;
   margin-right: 16px;
+}
+nav a:hover {
+  border-bottom: 2px solid #F68338;
 }
 nav img:hover {
   cursor: pointer;
