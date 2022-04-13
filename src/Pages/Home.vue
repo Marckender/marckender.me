@@ -30,5 +30,23 @@ export default {
 
 .first_content {
    margin-top: 8%;
+   overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F68338;
+  border-radius: 10px;
 }
 </style>
