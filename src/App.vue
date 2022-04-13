@@ -3,14 +3,14 @@
   <div id="app">
       <router-view></router-view>
   </div>
-  <Footer/>
+  <!-- <Footer/> -->
 </template>
 
 <script>
-import Footer from './components/Footer.vue'
+// import Footer from './components/Footer.vue'
 import Navbar from './components/Navbar.vue'
   export default {
-  components: { Navbar, Footer },
+  components: { Navbar },
     name: 'App'
   }
 </script>

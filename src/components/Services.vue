@@ -86,7 +86,7 @@ export default {
     }
 
     .box_grid .box {
-        width: 380px;
+        width: 30vw;
         height: 230px;
         border: 1px solid #222;
         margin-bottom: 30px;
