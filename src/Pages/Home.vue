@@ -1,5 +1,5 @@
 <template>
-   <section class="principal">
+   <section class="principalHome">
       <Hero>
       <template v-slot:heroside>
          <div class="first_content">
@@ -22,15 +22,18 @@ export default {
 }
 </script>
 <style lang="css" >
-.principal {
+.principalHome {
    width: 100%;
    /* overflow: hidden; */
    background-color: #191919 !important;
+   height: 100%;
+
 }
 
 .first_content {
    margin-top: 8%;
-   overflow-y: scroll;
+   /* overflow-y: scroll; */
+   height: 100%;
 }
 
 /* width */

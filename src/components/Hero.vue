@@ -74,6 +74,10 @@
     font-weight: 15px;
     color: #fff;
   }
+  .hero_container .grid_2 {
+    height: 100%;
+    width: 100%;
+  }
 
 @media (max-width: 700px) { 
 }

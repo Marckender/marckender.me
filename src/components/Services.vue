@@ -15,7 +15,8 @@
                 <div class="box">
                     <i class="fas fa-envelope"></i>
                     <h3>Title</h3>
-                    <p>dvhjhdhdj dhdihidhgidg djdogjodg dojgodgjodg
+                    <p>
+                        dvhjhdhdj dhdihidhgidg djdogjodg dojgodgjodg
                         dhidhgidhg djgdjgodg dgjodgjdjgo
                     </p>
                 </div>
@@ -49,8 +50,7 @@ export default {
 </script>
 <style>
     .services_principal {
-        margin: 0 5%;
-        max-height: 400px;
+        margin: 2% 5%;
         height: 100%;
         text-align: left;
     }
@@ -80,7 +80,7 @@ export default {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 31px;
+        grid-column-gap: 40px;
         grid-row-gap: 0px;
          justify-items: center;
     }

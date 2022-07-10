@@ -1,12 +1,16 @@
 <template>
     <section  class="home_description">
-        <h3>Software Engineer</h3>
+        <h3>Software Developer</h3>
         <h2>Marckender R. Jean Charles</h2>
-        <p>Hi, My name Marckender R. Jean Charles. .......................................................
-           .................................................................................. ..........................
-           ......................................................... ............................. .................... 
-           ............................................................. ............................................... 
-           ............................ .......................... .............. ............ ................
+        <p>Hi, My name Marckender R. Jean Charles. I am a student in software analyst and development,
+           <strong>and work at Compass as a systems programmer ( Javascript ).</strong>
+            passionate about technology and always willing to learn more every day.
+            I like to work in a team and be very active in the contexts in which I am inserted.
+            <strong>Today I work mainly with Javascript and related technologies such as : Typescript,
+             NodeJS, ReactJS and React Native, VueJS </strong>.
+            I value the organization of codes and projects, using versioning based on Git,
+             as well as good practices such as the application of
+            Git Flow and Conventional Commits in the maintenance of my codebases.
         </p>
 
         <div class="desc_infos">
@@ -19,6 +23,7 @@
                 <!-- <p>Birhday : <span>13 Semptember</span></p> -->
             </div>
         </div>
+        <button>Hire me</button>
 
         <div class="divider1"></div>
     </section>
@@ -30,11 +35,8 @@ export default {
 </script>
 <style>
     .home_description {
-        margin: 3% 5%;
+        padding: 3% 3%;
         text-align: left;
-
-        max-height: 350px;
-        height: 100%;
     }
     .home_description h3 {
         display: block;
@@ -108,9 +110,23 @@ export default {
     }
 
     .home_description .divider1 {
-        height: 1px;
+        height: 2px;
         width: 100%;
         background: #222;
         margin: 60px 0;
+    }
+
+    .home_description button {
+        padding: 8px 20px;
+        cursor: pointer;
+        background: #F68338;
+        -webkit-appearance: none;
+        /* position: relative; */
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        display: inline-block;
+        border-radius: 0;
+        border: 1px solid #F68338;
     }
 </style>
