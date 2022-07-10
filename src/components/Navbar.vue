@@ -53,9 +53,9 @@
  .change_color {
    width: 100%;
     color: rgba(7, 26, 100, 0.63);
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     transition: 0.8s ease-in;
-    box-shadow: 3px 3px 6px 3px rgba(144, 144, 146, 0.2);
+    /* box-shadow: 3px 3px 6px 3px rgba(144, 144, 146, 0.2); */
   }
   .logo_change {
     color: rgba(7, 26, 100, 0.63);

@@ -87,7 +87,7 @@
 
   .hero_container .grid_1 {
     width: 100%;
-    height: 100%;
+    height: 30vh;
   }
   .hero_container .grid_2 {
     height: 100%;
