@@ -129,4 +129,12 @@ export default {
         border-radius: 0;
         border: 1px solid #F68338;
     }
+
+
+    @media (max-width: 700px) { 
+        .home_description .desc_infos{
+            display: flex;
+            flex-direction: column;
+        }
+    }
 </style>

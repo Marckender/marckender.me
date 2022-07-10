@@ -80,6 +80,19 @@
   }
 
 @media (max-width: 700px) { 
+  .hero_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero_container .grid_1 {
+    width: 100%;
+    height: 100%;
+  }
+  .hero_container .grid_2 {
+    height: 100%;
+    width: 100%;
+  }
 }
 @media  (min-width: 701px) {
 
