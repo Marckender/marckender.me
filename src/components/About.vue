@@ -23,14 +23,22 @@
                 <!-- <p>Birhday : <span>13 Semptember</span></p> -->
             </div>
         </div>
-        <button>Hire me</button>
+        <!-- <button>Hire me</button> <pre/> -->
+        <button @click="downloadCV">Download CV</button>
+
 
         <div class="divider1"></div>
     </section>
 </template>
 <script>
+
 export default {
-    
+    methods: {
+        downloadCV() {
+            let url = "https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K2451948E7&tokenCaptchar=03ANYolqtM8sa_iX-aeGJ3zxz4OCx1V8FrzzzTZQwSSpKIvdvmPJPUPU1V17jGuxJZ4F6vDzsq1s5_F4hWeU8UgV7nHFRFbnpqg5pUeBya74VFb_5T_y6kUgsOZBYnJrEXHnua657Mj9vwHENeQMQ_QFwgAsw04eU9d1rmjbrKwm0_FzXdxckigJA7CnWJxKkIKhUq-B_k89m8l4agEsfQUXslB-jCoGBQtuwJF5sou1SEMSvFD-5CcsjHLXuQ7at2_g6jz6q8-Bfsg3uOikUp8nRpyhtYosETf_XEGhoJj4AlXTaOeuhPuAg6qvKen7AdHNKjniVzWSqHn8O6pP6tcBO9LUUgAM_iRT_WzDdGmc5YDAoz5zjXYrMaaRS1s6WOnB-0QRss0yA5SIKc6NenqL1QndkKXx08-CvDS4wDQYhB0ExI6cmeLv0OgTBkWUDDzrEkdLnm8fe5dR9WGSv87ilSHxonJphmYw"
+            window.open(url, "_blank")
+        }
+    }
 }
 </script>
 <style>

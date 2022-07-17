@@ -1,14 +1,16 @@
 <template>
    <nav :class="{change_color: scrollPosition > 20}">
      <div class="__logo">
-        <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender</a>
+        <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender.me</a>
      </div>
     <div  class="nav_menu">
-      <a :class="{logo_change: scrollPosition > 20}" href="#home_functionality"><span>Home</span></a>
-      <a href="#home_plans" :class="{logo_change: scrollPosition > 20}"><span>Resume</span></a>
-      <a href="#home_contact" :class="{logo_change: scrollPosition > 20}"><span>Portfolio</span></a>
-      <a href="#home_contact" :class="{logo_change: scrollPosition > 20}"><span>Blog</span></a>
-      <a href="#home_contact" :class="{logo_change: scrollPosition > 20}"><span>Contact</span></a>
+      <router-link :to="{name: 'Home'}" :class="{logo_change: scrollPosition > 20}">Home</router-link>
+      <!-- <a :class="{logo_change: scrollPosition > 20}" href="#home_functionality"><span>Home</span></a> -->
+      <!-- <a href="#home_plans" :class="{logo_change: scrollPosition > 20}"><span>Resume</span></a> -->
+      <router-link :to="{name: 'Portfolio'}">Portfolio</router-link>
+      <!-- <a href="/portfolio" :class="{logo_change: scrollPosition > 20}"><span>Portfolio</span></a> -->
+      <!-- <a href="#home_contact" :class="{logo_change: scrollPosition > 20}"><span>Blog</span></a>
+      <a href="#home_contact" :class="{logo_change: scrollPosition > 20}"><span>Contact</span></a> -->
     </div>
     <!-- <div class="drawer">
     <i v-if="!drawer" class="fas fa-align-justify" @click="drawer =  true"></i>
@@ -101,7 +103,7 @@ nav .menu:hover {
 }
 @media (max-width: 700px) { 
   .nav_menu {
-    display: none;
+    
   }
 }
 @media  (min-width: 701px) {

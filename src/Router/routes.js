@@ -1,4 +1,5 @@
 import Home from '../Pages/Home.vue'
+import Portfolio from '../Pages/Portfolio.vue'
 
 const routes = [
     {
@@ -6,6 +7,11 @@ const routes = [
         name: 'Home',
         component: Home
     },
+    {
+        path: '/portfolio',
+        name: 'Portfolio',
+        component: Portfolio
+    }
 ]
 
 export default routes;
