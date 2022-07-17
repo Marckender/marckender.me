@@ -18,11 +18,11 @@ import Navbar from './components/Navbar.vue'
 <style>
 body {
    background-color: #191919 !important;
-   /* margin: 0; */
-   /* padding: 0; */
+   margin: 0;
+   padding: 0;
    width: 100%;
-   height: 100vh;
-   overflow: hidden;
+   overflow-x: hidden;
+    box-sizing: border-box;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

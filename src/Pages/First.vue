@@ -21,7 +21,7 @@ export default {
 .principal {
    height: 100%;
    background-color: #191919 !important;
-   overflow-x: scroll;
+   overflow-x: hidden;
 }
 
 </style>

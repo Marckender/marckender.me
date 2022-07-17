@@ -32,6 +32,8 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+
+  height: 100vh;
 }
 
   .hero_container .grid_1 {
@@ -77,6 +79,7 @@
   .hero_container .grid_2 {
     height: 100%;
     width: 100%;
+    overflow-y: scroll;
   }
 
 @media (max-width: 700px) { 
