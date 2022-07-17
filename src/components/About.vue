@@ -2,7 +2,7 @@
     <section  class="home_description">
         <h3>Software Developer</h3>
         <h2>Marckender R. Jean Charles</h2>
-        <p>Hi, My name Marckender R. Jean Charles. I am a student in software analyst and development,
+        <p>Hi, My name Marckender R. Jean Charles. I am a student in Systems analysis and development,
            <strong>and work at Compass as a systems programmer ( Javascript ).</strong>
             passionate about technology and always willing to learn more every day.
             I like to work in a team and be very active in the contexts in which I am inserted.

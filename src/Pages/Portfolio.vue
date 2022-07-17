@@ -3,7 +3,14 @@
       <Hero>
          <template v-slot:heroside>
             <div class="first_content">
-               
+               <Title>
+                <template v-slot:title >
+                    TAKE A LOOK AT
+                </template>
+                <template v-slot:subtitle >
+                    Projects
+                </template>
+               </Title>
             </div>
          </template>
       </Hero>
@@ -12,11 +19,13 @@
 
 <script>
 import Hero from '../components/Hero.vue'
+import Title from '../components/Title.vue'
 export default {
    name: 'Home',
    components: {
-      Hero
-   }
+    Hero,
+    Title
+}
 }
 </script>
 <style lang="css" >
