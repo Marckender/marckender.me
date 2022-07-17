@@ -100,4 +100,21 @@
 @media  (min-width: 701px) {
 
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px grey;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F68338;
+  border-radius: 2px;
+}
 </style>
