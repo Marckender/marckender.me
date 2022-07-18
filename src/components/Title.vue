@@ -1,15 +1,28 @@
 <template>
     <section  class="home_description">
-        <h3><slot name="title"></slot></h3>
-        <h2><slot name="subtitle"></slot></h2>
+        <h3>{{title}}</h3>
+        <h2>{{subtitle}}</h2>
     </section>
 </template>
 <script>
 
 export default {
-      name:"Title",
-      components: {
-      }
+    name:"Title",
+    components: {
+    },
+    props: {
+        title : {
+            type: String,
+            required: true,
+        },
+        subtitle: {
+            type: String,
+            required: false
+        }
+    },
+    data () {
+    return {}
+  }
 }
 </script>
 <style>
