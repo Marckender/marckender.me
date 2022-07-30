@@ -48,7 +48,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
     .services_principal {
         margin: 2% 5%;
         height: 100%;

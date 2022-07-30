@@ -96,6 +96,12 @@
     height: 100%;
     width: 100%;
   }
+
+.hero_container .grid_1 .hero_footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
 }
 @media  (min-width: 701px) {
 

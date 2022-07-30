@@ -1,7 +1,7 @@
 <template>
    <nav :class="{change_color: scrollPosition > 20}">
-     <div class="__logo">
-        <a :class="{logo_change: scrollPosition > 20}" href="#welcome" > Marckender.me</a>
+     <div class="__logo" @click="goTo">
+        <a :class="{logo_change: scrollPosition > 20}"> Marckender.me</a>
      </div>
     <div  class="nav_menu">
       <router-link :to="{name: 'Home'}" :class="{logo_change: scrollPosition > 20}">Home</router-link>
@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import router from '../Router';
+
   export default {
     name:"Navbar",
     components: {
@@ -44,6 +46,9 @@
       },
       showDrawer () {
         this.drawer = true;
+      },
+      goTo() {
+        router.push('/')
       }
   },
     mounted() {
@@ -77,6 +82,7 @@ nav {
 nav .__logo a{
   color: #F68338;
   padding-left: 8px ;
+  cursor: pointer;
 }
 nav a {
   font-size: 14px;
@@ -102,9 +108,6 @@ nav .menu:hover {
   cursor: pointer;
 }
 @media (max-width: 700px) { 
-  .nav_menu {
-    
-  }
 }
 @media  (min-width: 701px) {
   .drawer {
