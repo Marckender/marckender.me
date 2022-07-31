@@ -1,20 +1,28 @@
 <template>
     <section>
-          <div class="main-container">
+        <div class="main-container">
         <!-- event 1st of timeline -->
-        <div class="text-wrapper right">
-            <!-- all text content of timeline -->
-            <div class="content">
-                <h3>Software Developer</h3>
-                <p>2020 - Present</p>
-                <p>COMPASS.UOL</p>
+            <div class="text-wrapper right">
+                <!-- all text content of timeline -->
+                <div class="content">
+                    <h3>Systems Analysis and Development</h3>
+                    <p>2020 - Present</p>
+                    <p>UCEFF</p>
+                </div>
             </div>
-        </div>
+            <div class="text-wrapper right">
+                <!-- all text content of timeline -->
+                <div class="content">
+                    <h3>Computer Science</h3>
+                    <p>2018 - 2020 (incomplete)</p>
+                    <p>Uffs - Universidade Federal Fronteira Sul</p>
+                </div>
+            </div>
         <div class="text-wrapper right">
             <div class="content">
-                <h3>Software Engineer , Co-Founder</h3>
-                <p>2019 - Present</p>
-                <p>MJCODE</p>
+                <h3>HIGH SCHOOL</h3>
+                <p>2007 - 2014</p>
+                <p>Lycée Toussaint Louverture</p>
             </div>
         </div>
     </div>

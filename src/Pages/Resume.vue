@@ -9,7 +9,7 @@
                 </section>
                <Title title="Resume" subtitle="Education" />
                <section>
-                  Soon ...
+                  <Education />
                </section>
             </div>
          </template>
@@ -21,12 +21,14 @@
 import Hero from '../components/Hero.vue'
 import Title from '../components/Title.vue'
 import Experience from '../components/Experience.vue'
+import Education from '../components/Education.vue'
 export default {
    name: 'Resume',
     components: {
     Hero,
     Title,
-    Experience
+    Experience,
+    Education
 },
    data(){
       return {
