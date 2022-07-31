@@ -21,7 +21,7 @@
         <div class="text-wrapper right">
             <div class="content">
                 <h3>HIGH SCHOOL</h3>
-                <p>2007 - 2014</p>
+                <p>Class of 2014</p>
                 <p>Lycée Toussaint Louverture</p>
             </div>
         </div>
