@@ -6,7 +6,7 @@
                 <!-- all text content of timeline -->
                 <div class="content">
                     <h3>Systems Analysis and Development</h3>
-                    <p>2020 - Present</p>
+                    <p>2022 - Present</p>
                     <p>UCEFF</p>
                 </div>
             </div>
@@ -14,7 +14,7 @@
                 <!-- all text content of timeline -->
                 <div class="content">
                     <h3>Computer Science</h3>
-                    <p>2018 - 2020 (incomplete)</p>
+                    <p>2018 - 2021 (incomplete)</p>
                     <p>Uffs - Universidade Federal Fronteira Sul</p>
                 </div>
             </div>
