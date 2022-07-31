@@ -5,6 +5,7 @@
      </div>
     <div  class="nav_menu">
       <router-link :to="{name: 'Home'}" :class="{logo_change: scrollPosition > 20}">Home</router-link>
+      <router-link :to="{name: 'Resume'}">Resume</router-link>
       <!-- <a :class="{logo_change: scrollPosition > 20}" href="#home_functionality"><span>Home</span></a> -->
       <!-- <a href="#home_plans" :class="{logo_change: scrollPosition > 20}"><span>Resume</span></a> -->
       <router-link :to="{name: 'Portfolio'}">Portfolio</router-link>
@@ -107,7 +108,15 @@ nav img:hover {
 nav .menu:hover {
   cursor: pointer;
 }
-@media (max-width: 700px) { 
+@media (max-width: 700px) {
+  .__logo{
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 @media  (min-width: 701px) {
   .drawer {
